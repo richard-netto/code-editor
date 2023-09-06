@@ -2,7 +2,6 @@ import React from 'react';
 
 // Assets
 import AppLogo from './components/AppLogo/AppLogo';
-import TextInput from './components/TextInput/TextInput';
 
 const App = (): JSX.Element => {
   return (
