@@ -29,6 +29,7 @@
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test --coverage --maxWorkers=1 --watchAll=false",
+    "test-watch": "react-scripts test --coverage --maxWorkers=1 --watchAll=true",
     "eject": "react-scripts eject",
     "build": "react-scripts build",
     "build-application": "npm run build",
