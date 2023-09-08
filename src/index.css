@@ -15,3 +15,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer base {
+  @font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Black.ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Bold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-ExtraBold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-ExtraLight.ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Light.ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Medium.ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-SemiBold.ttf');
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-Thin.ttf');
+  }
+}
+
+@layer utilities {
+  .text-title {
+    font-family: Inter;
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.96875rem;
+  }
+
+  .sidebar-title {
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.125rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+  }
+
+  .text-body {
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+  }
+
+  
+}
