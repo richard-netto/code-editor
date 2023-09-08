@@ -4,7 +4,7 @@ name: ESlint Application
 on: [pull_request]
 
 jobs:
-  audit-application:
+  lint-application:
     runs-on: ubuntu-latest
 
     steps:
