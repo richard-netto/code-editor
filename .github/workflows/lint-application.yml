@@ -39,4 +39,4 @@ jobs:
       - name: ESlint application
         env:
           CI: true
-        run: pnpm eslint --ext .tsx,.jsx,.ts,.js src
+        run: pnpm eslint --ext .tsx,.jsx,.ts,.js src --max-warnings=0
