@@ -65,7 +65,7 @@ code {
 
 @layer utilities {
   .text-title {
-    font-family: Inter;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 1.3125rem;
     font-style: normal;
     font-weight: 700;
@@ -73,7 +73,7 @@ code {
   }
 
   .sidebar-title {
-    font-family: Inter;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 0.75rem;
     font-style: normal;
     font-weight: 400;
@@ -83,7 +83,7 @@ code {
   }
 
   .text-body {
-    font-family: Inter;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
