@@ -3,6 +3,10 @@ import React from 'react';
 // Components
 import AppLogo from './components/AppLogo/AppLogo';
 import TextInput from './components/TextInput/TextInput';
+import ProfileButton from './components/ProfileButton/ProfileButton';
+
+// Assets
+import ProfileImage from './assets/images/terry_crews.jpg';
 
 const App = (): React.JSX.Element => {
   return (
@@ -14,6 +18,10 @@ const App = (): React.JSX.Element => {
         <br />
 
         <TextInput />
+
+        <br />
+
+        <ProfileButton name="Terry Crews" imageSrc={ProfileImage} />
       </div>
     </div>
   );
