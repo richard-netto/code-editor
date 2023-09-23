@@ -1,10 +1,10 @@
 import React from 'react';
 
-// Assets
+// Components
 import AppLogo from './components/AppLogo/AppLogo';
 import TextInput from './components/TextInput/TextInput';
 
-const App = (): JSX.Element => {
+const App = (): React.JSX.Element => {
   return (
     // App Container
     <div className="text-center">

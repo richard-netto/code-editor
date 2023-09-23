@@ -1,11 +1,13 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
+
+// Components
 import TextInput from './TextInput';
 
-describe('AppLogo', () => {
+describe('TextInput', () => {
   it('should render component', () => {
     render(<TextInput />);
-    const input = screen.getByTestId('text-input') as HTMLElement;
+    const input = screen.getByRole<HTMLInputElement>('searchbox');
     expect(input).toBeInTheDocument();
   });
 
@@ -15,7 +17,7 @@ describe('AppLogo', () => {
         <TextInput />
       </div>
     );
-    const input = screen.getByTestId('text-input') as HTMLElement;
+    const input = screen.getByRole<HTMLInputElement>('searchbox');
     expect(input).toHaveClass('w-full');
   });
 });
