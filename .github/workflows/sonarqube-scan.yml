@@ -3,7 +3,6 @@ name: Sonarqube Scan
 
 on: [pull_request] 
 
-
 jobs:
   sonarqube-scan:
     runs-on: ubuntu-latest
