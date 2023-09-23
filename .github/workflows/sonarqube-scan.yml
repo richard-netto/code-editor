@@ -1,0 +1,28 @@
+# Sonarqube scan
+name: Sonarqube Scan
+
+on:
+  push:
+    # Add deploy trigger branch name
+    branches: [branch-name] 
+
+
+jobs:
+  sonarqube-scan:
+    runs-on: ubuntu-latest
+
+    permissions: read-all
+    
+    steps:
+      # Checkout
+      - name: Check out source code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # Sonarqube scan upload
+      - name: Sonarqube scan
+        uses: sonarsource/sonarqube-scan-action@master
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
