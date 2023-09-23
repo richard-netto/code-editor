@@ -4,6 +4,11 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "jest.showCoverageOnLoad": true,
+  "jest.coverageColors": {
+    "uncovered": "rgba(255,99,71, 0.2)",
+    "partially-covered": "rgba(255,215,0, 0.2)"
+  },
   "files.eol": "\n",
   "files.associations": {
     "*.css": "tailwindcss"
