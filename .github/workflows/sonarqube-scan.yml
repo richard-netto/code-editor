@@ -1,11 +1,7 @@
 # Sonarqube scan
 name: Sonarqube Scan
 
-on:
-  push:
-    # Add deploy trigger branch name
-    branches: [branch-name] 
-
+on: [pull_request] 
 
 jobs:
   sonarqube-scan:
